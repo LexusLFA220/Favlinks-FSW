@@ -4,9 +4,9 @@ const path = require('path')
 
 const app = express();
 
-const PORT = 300
+const PORT = 3000
 
-const clientPath = path.resolve(favlinks-fsw, '../client/dist')
+const clientPath = path.resolve(__dirname, '../client/dist')
 
 app.use(express.static(clientPath))
 
